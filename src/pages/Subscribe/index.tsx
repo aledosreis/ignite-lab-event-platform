@@ -1,10 +1,10 @@
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Logo } from "../components/Logo";
-import { useCreateSubscriberMutation } from "../graphql/generates";
+import { Logo } from "../../components/Logo";
+import { useCreateSubscriberMutation } from "../../graphql/generates";
 
-import codeMockup from '../assets/code-mockup.png'
-import reactIcon from '../assets/react-icon.png'
+import codeMockup from '../../assets/code-mockup.png'
+import reactIcon from '../../assets/react-icon.png'
 
 export function Subscribe() {
   const navigate = useNavigate()
